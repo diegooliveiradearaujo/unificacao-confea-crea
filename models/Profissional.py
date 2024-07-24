@@ -1,0 +1,32 @@
+class Profissional:
+  def __init__(self, rnp, registro_regional, sexo,tipo_registro,nome,nome_social,cpf,nome_pai,nome_mae,data_nascimento,pais,naturalidade,estado,rg,data_expedicao,uf_expedicao,orgao_expedidor,estado_civil,celular,telefone_residencial,email,email_confirma,cep,tipo_logradouro,logradouro,numero,complemento,bairro,cidade,uf):
+    self.rnp              = rnp
+    self.registro_regional= registro_regional
+    self.sexo             = sexo
+    self.tipo_registro    = tipo_registro
+    self.nome             = nome
+    self.nome_social      = nome_social
+    self.cpf              = cpf
+    self.nome_pai         = nome_pai
+    self.nome_mae         = nome_mae
+    self.data_nascimento  = data_nascimento
+    self.pais             = pais
+    self.naturalidade     = naturalidade
+    self.estado           = estado
+    self.rg               = rg
+    self.data_expedicao   = data_expedicao
+    self.uf_expedicao     = uf_expedicao
+    self.orgao_expedidor  = orgao_expedidor
+    self.estado_civil     = estado_civil
+    self.celular          = celular
+    self.telefone_residencial = telefone_residencial
+    self.email            = email
+    self.email_confirma   = email_confirma
+    self.cep              = cep
+    self.tipo_logradouro  = tipo_logradouro
+    self.logradouro       = logradouro
+    self.numero           = numero
+    self.complemento      = complemento
+    self.bairro           = bairro
+    self.cidade           = cidade
+    self.uf               = uf
